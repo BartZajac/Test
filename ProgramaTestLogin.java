@@ -22,8 +22,6 @@ public class ProgramaTestLogin {
 
     @Test
     public void UserRegistrationWithValidData() throws InterruptedException {
-//        driver.findElement(By.cssSelector("[data-menu=\"userLogin.register\"]")).click();
-//        Thread.sleep(3000);
 
         driver.findElement(By.cssSelector("[data-menu=\"userLogin.login\"]")).click();
         Thread.sleep(3000);
